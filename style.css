@@ -1,15 +1,6 @@
-.div{
-    position: relative;
-}
-#logo{
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-25%, -50%,);
-}
-#search-bar{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-40%, -50%,);
+#logobox{
+    text-align: center;
+    border-radius: 10%;
+    max-width: 800px;
+    margin: 25% auto 15px auto;
 }
