@@ -45,6 +45,10 @@ header a{
     padding: 5px 8px 0px 14px;
     background-color: #fff;
 }
+#search-box:hover{
+    box-shadow: 1px 1px 10px 1px lightgray;
+        
+}
 #search-bar{
    text-align: left;
    width: 427px;
