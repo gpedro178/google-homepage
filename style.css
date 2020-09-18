@@ -11,10 +11,10 @@ header a{
     text-decoration: none;
     font-size: 13px;
 }
-#link{
+.link{
     margin-right: 13px;
 }
-#link:hover{
+.link:hover{
     opacity: .85;
     text-decoration: underline;
     text-decoration-line: underline;
@@ -60,7 +60,7 @@ header a{
 }
 .search-buttons ul{
     list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 60px;
+    margin: 0;
+    padding: 0;
+    width: 60px;
 }
