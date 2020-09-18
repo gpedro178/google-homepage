@@ -1,8 +1,12 @@
+#header{
+    position: relative;
+    float: right;
+    margin-top: -210px;
+    }
 #logobox{
     text-align: center;
     margin: 25% auto 15px auto;
 }
-
 #search-box{
     text-align: center;
     width: 482px;
