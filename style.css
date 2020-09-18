@@ -1,8 +1,27 @@
+body{
+    font-family: Arial, sans-serif;
+}
 #header{
     position: relative;
     float: right;
     margin-top: -210px;
     }
+header a{
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    font-size: 13px;
+}
+#link{
+    margin-right: 10px;
+}
+#link:hover{
+    opacity: .85;
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: currentColor;
+    text-decoration-thickness: auto;
+}
 #logobox{
     text-align: center;
     margin: 25% auto 15px auto;
