@@ -22,6 +22,12 @@ header a{
     text-decoration-color: currentColor;
     text-decoration-thickness: auto;
 }
+#sign-in{
+    background-color: #4481f1;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    margin-right: 15px;
+}
 #logobox{
     text-align: center;
     margin: 25% auto 15px auto;
