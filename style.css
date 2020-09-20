@@ -39,7 +39,7 @@ header a{
 }
 #search-box{
     text-align: center;
-    width: 482px;
+    max-width: 482px;
     height: 44px;
     border: 1px solid #dfe1e5;
     border-radius: 24px;
@@ -53,7 +53,7 @@ header a{
 }
 #search-bar{
    text-align: left;
-   width: 427px;
+   max-width: 427px;
    height: 34px;
    border-color: transparent;
 }
