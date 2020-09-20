@@ -1,11 +1,11 @@
 body{
     font-family: Arial, sans-serif;
 }
-#header{
-    position: relative;
-    float: right;
-    margin-top: -210px;
-    }
+header ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
 header a{
     color: rgba(0,0,0,0.87);
     text-decoration: none;
@@ -17,10 +17,8 @@ header a{
 .link:hover{
     opacity: .85;
     text-decoration: underline;
-    text-decoration-line: underline;
     text-decoration-style: solid;
     text-decoration-color: currentColor;
-    text-decoration-thickness: auto;
 }
 #sign-in{
     background-color: #4481f1;
@@ -30,7 +28,6 @@ header a{
     margin-right: 15px;
     display: block;
     text-align: center;
-    float: right;
     border-radius: 2px;
 }
 #sign-in:hover{
@@ -38,7 +35,7 @@ header a{
 }
 #logobox{
     text-align: center;
-    margin: 25% auto 15px auto;
+    margin: 17vh auto 15px auto;
 }
 #search-box{
     text-align: center;
@@ -62,19 +59,21 @@ header a{
 }
 .search-buttons ul{
     list-style-type: none;
-    margin: 0;
+    margin: auto;
     padding: 0;
-    width: 150px;
-    text-align: center;
-    background-color: #f4f4f4;
 }
-li a{
+.search-buttons li{
+    float: left;
+}
+.search-buttons li a{
     display: block;
     color: rgba(92, 92, 92, 0.87);
     text-decoration: none;
+    text-align: center;
     font-size: 14px;
     padding: 8px 16px;
     border: 1px solid transparent;
+    background-color: #f4f4f4;
 }
 .search-buttons a:hover{
     color: black;
