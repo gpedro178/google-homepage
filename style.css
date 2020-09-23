@@ -103,3 +103,46 @@ This was an option using links instead of buttons
     color: black;
     border: 1px solid rgba(92, 92, 92, 0.87);
     border-radius: 4px;
+}
+.footer{
+    background-color: #f4f4f4;
+    margin: -10px;
+    
+}
+footer ul{
+    display: flex;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    border-top: 1px solid #e4e4e4;
+    flex-wrap: wrap;
+    align-content: center;
+}
+footer li a{
+    display: block;
+    color: rgba(92, 92, 92, 0.87);
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    padding: 8px 16px;
+    border-top: 1px solid transparent;
+    background-color: #f4f4f4;
+}
+footer li a:hover{
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: currentColor;
+}
+.push-right{
+    margin-left: auto;
+}
+#country{
+    display: block;
+    color: rgba(92, 92, 92, 0.87);
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    padding: 8px 16px;
+    border-top: 1px solid transparent;
+    background-color: #f4f4f4;
+}
