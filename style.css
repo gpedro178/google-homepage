@@ -49,7 +49,6 @@ header a{
 }
 #search-box:hover{
     box-shadow: 1px 1px 10px 1px lightgray;
-        
 }
 #search-bar{
    text-align: left;
@@ -57,13 +56,19 @@ header a{
    height: 34px;
    border-color: transparent;
 }
+.search-buttons{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+/*
 .search-buttons ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
     list-style-type: none;
     margin: auto;
     padding: 0;
-}
-.search-buttons li{
-    float: left;
 }
 .search-buttons li a{
     display: block;
@@ -74,9 +79,27 @@ header a{
     padding: 8px 16px;
     border: 1px solid transparent;
     background-color: #f4f4f4;
+    margin: 30px 7px;
 }
 .search-buttons a:hover{
     color: black;
     border: 1px solid rgba(92, 92, 92, 0.87);
     border-radius: 4px;
 }
+This was an option using links instead of buttons
+*/
+.search-buttons input{
+    color: rgba(92, 92, 92, 0.87);
+    text-decoration: none;
+    text-align: center;
+    font-size: 13.5px;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    background-color: #f4f4f4;
+    margin: 30px 7px;
+    cursor: pointer;
+}
+.search-buttons input:hover{
+    color: black;
+    border: 1px solid rgba(92, 92, 92, 0.87);
+    border-radius: 4px;
