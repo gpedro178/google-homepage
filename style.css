@@ -3,6 +3,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    margin: 0px;
 }
 .content{
     flex: 1 0 auto;
@@ -116,14 +117,13 @@ This was an option using links instead of buttons
 }
 .footer{
     background-color: #f4f4f4;
-    margin: 0px -8px;
     flex-shrink: 0;
 }
 footer ul{
     display: flex;
     list-style-type: none;
     margin: auto;
-    padding: 0;
+    padding: 3px 11px;
     border-top: 1px solid #e4e4e4;
     flex-wrap: wrap;
     align-content: center;
