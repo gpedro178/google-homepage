@@ -13,10 +13,14 @@ header ul{
     display: flex;
     justify-content: flex-end;
 }
+header li{
+    align-self: center;
+}
 header a{
     color: rgba(0,0,0,0.87);
     text-decoration: none;
     font-size: 13px;
+    justify-self: center;
 }
 .link{
     margin-right: 13px;
@@ -26,6 +30,18 @@ header a{
     text-decoration: underline;
     text-decoration-style: solid;
     text-decoration-color: currentColor;
+}
+.square-button{
+    width: 30px;
+    height: 30px;
+    background: url('//ssl.gstatic.com/gb/images/i1_1967ca6a.png') -132px -38px;
+    display: inline-block;
+    opacity: .52;
+    margin-right: 13px;
+    margin-top: 5px;
+}
+.square-button:hover{
+    opacity: 1;
 }
 #sign-in{
     background-color: #4481f1;
@@ -49,7 +65,7 @@ header a{
     max-height: auto;
 }
 #search-box{
-    text-align: center;
+    display: flex;
     max-width: 482px;
     height: 44px;
     border: 1px solid #dfe1e5;
@@ -61,11 +77,25 @@ header a{
 #search-box:hover{
     box-shadow: 1px 1px 10px 1px lightgray;
 }
+.lupa{
+    width: 30px;
+    height: 30px;
+    background: url('//ssl.gstatic.com/gb/images/i1_1967ca6a.png') -245px -25px;
+    display: inline-block;
+    opacity: .35;  
+    margin-right: 5px;  
+}
+#formulario{
+    display: contents;
+}
 #search-bar{
-   text-align: left;
-   max-width: 427px;
-   height: 34px;
-   border-color: transparent;
+    display: flex;
+    flex: 100%;
+    text-align: left;
+    max-width: 427px;
+    height: 34px;
+    border-color: transparent;
+    font-size: 16px;
 }
 .search-buttons{
     display: flex;
